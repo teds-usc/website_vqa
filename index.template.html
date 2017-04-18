@@ -1,9 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js'></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+    <link href="assets/css/vqa-style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
+      <div class="row headline">
+        <h1>Being Negative but Constructively:</h1>
+        <h2>Lessons Learnt from Creating Better Visual Question Answering Datasets</h2>
+      </div>
+      <div class="row content">
+        <div><strong>Abstract</strong></div>
+        <div>{{ abstract }}</div>
+      </div>
+      <div class="row authors">
+        {% for author in authors %}
+        <div class="author span2">
+          <a href="{{ author.url }}">
+            <img class="profile-img" src="{{ author.img_url }}"/>
+            <div class="profile-name"> {{ author.name }} </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="row resources">
+        {% for resource in resources %}
+          <span>[ <a href="{{resource.url}}">{{resource.name}}</a> ]</span>
+        {% endfor %}
+      </div>
+      <div class="row affliations">
+        {% for affliation in affliations %}
+        <div class="affliation">
+          <img class="affliation-img" src="{{ affliation.img_url }}"/>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </body>
 </html>
