@@ -17,5 +17,5 @@
     { "img_url": "assets/images/usc.png" },
     { "img_url": "assets/images/usc-viterbi.png" }
   ],
-  "root_footer_img": "assets/images/TEDS-LOGO.svg"
+  "root_site_logo": "assets/images/teds-logo.svg"
 }
