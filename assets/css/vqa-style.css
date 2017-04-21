@@ -33,7 +33,7 @@
 }
 .resource {
   font-weight: 500;
-  font-size:   14pt;
+  font-size:   12pt;
 }
 .item-list {
   width: -webkit-calc(100% - (30px / 2));
@@ -49,9 +49,9 @@
 }
 .abstract-headline {
   font-weight: 500;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 .abstract-content {
   margin-top:  10px;
-  font-size:   13pt;
+  font-size:   12pt;
 }
