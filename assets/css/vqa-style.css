@@ -33,6 +33,7 @@
 }
 .resource {
   font-weight: 500;
+  font-size:   14pt;
 }
 .item-list {
   width: -webkit-calc(100% - (30px / 2));
@@ -45,4 +46,12 @@
 }
 .site-logo {
   height: 60px;
+}
+.abstract-headline {
+  font-weight: 500;
+  font-size: 14pt;
+}
+.abstract-content {
+  margin-top:  10px;
+  font-size:   13pt;
 }
