@@ -49,6 +49,16 @@
           <h1>Being Negative but Constructively:</h1>
           <h2>Lessons Learnt from Creating Better Visual Question Answering Datasets</h2>
         </div>
+        <div class="item-list">
+          {% for author in authors %}
+          <div class="profile">
+            <a href="{{ author.url }}"><img class="profile-img" src="{{ author.img_url }}"/></a>
+            <a href="{{ author.url }}">
+              <div class="profile-name"> {{ author.name }} {% if author.equal %} * {% endif %} </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
         <div class="row content">
           <div class="abstract-headline">Abstract</div>
           <div class="abstract-content">{{ abstract }}</div>
@@ -56,14 +66,6 @@
         <div class="item-list">
           {% for resource in resources %}
             <span class="resource">[ <a href="{{resource.url}}">{{resource.name}}</a> ]</span>
-          {% endfor %}
-        </div>
-        <div class="item-list">
-          {% for author in authors %}
-          <div class="profile">
-            <a href="{{ author.url }}"><img class="profile-img" src="{{ author.img_url }}"/></a>
-            <a href="{{ author.url }}"><div class="profile-name"> {{ author.name }} </div></a>
-          </div>
           {% endfor %}
         </div>
         <div class="item-list">
