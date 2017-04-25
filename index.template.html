@@ -75,30 +75,34 @@
           </div>
           {% endfor %}
         </div>
+        <div class="text-box">{{ bibtex }}</div>
+        <div class="footnote"><p><strong>Note:</strong> {{footnote}}</p></div>
+        <div class="references">
+          <div class="abstract-headline">References</div>
+          {% for reference in references %}
+          <div class="reference">{{reference}}</div>
+          {% endfor %}
+        </div>
       </div>
     </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="wrapper">
+        <h2 class="footer-heading">{{ root_site_title | escape }}</h2>
+        <div class="footer-col-wrapper">
+          <div class="footer-col footer-col-1">
+            <ul class="contact-list">
+              <li> {{ site_author | escape }} </li>
+            </ul>
+          </div>
 
-    <div class="wrapper">
-
-      <h2 class="footer-heading">{{ root_site_title | escape }}</h2>
-
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <li> {{ site_author | escape }} </li>
-          </ul>
-        </div>
-
-        <div class="footer-col footer-col-3">
-          <p>{{ site_description | escape }}</p>
+          <div class="footer-col footer-col-3">
+            <p>{{ site_description | escape }}</p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-
+    </footer>
 
   </body>
 </html>

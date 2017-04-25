@@ -10,7 +10,8 @@
     ],
   "abstract": "Visual question answering (QA) has attracted a lot of attention lately, seen essentially as a form of (visual) Turing test that artificial intelligence should strive to excel. In this paper, we study a crucial component for this task: how can we design good datasets for the task?  We focus on the design of multiple-choice based datasets where the learner has to select the right answer from a set of candidate ones including the target and the decoys. Through careful analysis of the results given by state-of-the-art learning models and human annotators on existing datasets, we show the design of the decoy answers has a significant impact on how and what the learning models learn from the datasets.   In particular, the resulting learner can ignore the visual information, the question, or the both while still doing well on the task. Inspired by this,  we propose automatic procedures of how to remedy such design deficiencies. We apply the procedures to re-construct decoy answers for two popular visual QA datasets as well as to create a new visual QA dataset from the Visual Genome project, resulting in the largest dataset for this task. Extensive empirical studies show that the design deficiencies have been alleviated in the remedied datasets and the performance on them is likely a more faithful indicator of the difference among learning models.",
   "resources": [
-    { "name": "PDF (Coming Soon)", "url": "" },
+    { "name": "AiXiv", "url": "https://arxiv.org/abs/1704.07121"},
+    { "name": "PDF", "url": "http://hexianghu.com/pdf/hexiang2017negative.pdf" },
     { "name": "VisualGenome Decoys (56Mb)", "url": "http://hexianghu.com/vqa-negative-decoys/Visual_Genome_decoys.zip" },
     { "name": "VQA Decoys (8.6Mb)", "url": "http://hexianghu.com/vqa-negative-decoys/VQA_decoys.zip" },
     { "name": "Visual7W Decoys (3.9Mb)", "url": "http://hexianghu.com/vqa-negative-decoys/Visual7W_decoys.zip" }
@@ -20,5 +21,13 @@
     { "img_url": "assets/images/usc-viterbi.png" }
   ],
   "root_site_logo": "assets/images/teds-logo.svg",
-  "google_analytics": "UA-60071442-3"
+  "google_analytics": "UA-60071442-3",
+  "bibtex": "@article{chao2017being,<br/>title={Being Negative but Constructively: Lessons Learnt from Creating Better Visual Question Answering Datasets},<br/>author={Chao, Wei-Lun and Hu, Hexiang and Sha, Fei},<br/>journal={arXiv preprint arXiv:1704.07121},</br>year={2017}</br>}",
+  "footnote": "We provide the link to our preprint paper [1] and also links for downloading our generated decoys for the Visual7W dataset [2], the VQA dataset [3], and the Visual Genome dataset [4].",
+  "references": [
+    "[1] Wei-Lun Chao*, Hexiang Hu*, and Fei Sha. Being Negative but Constructively: Lessons Learnt from Creating Better Visual Question Answering Datasets. arXiv preprint arXiv:1704.07121, 2017.",
+    "[2] Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalantidis, Li-Jia Li, David A Shamma, et al. Visual genome: Connecting language and vision using crowdsourced dense image annotations. IJCV 2017.",
+    "[3] Yuke Zhu, Oliver Groth, Michael Bernstein, and Li Fei-Fei. Visual7w: Grounded question answering in images. In CVPR, 2016.",
+    "[4] Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C Lawrence Zitnick, and Devi Parikh. Vqa: Visual question answering. In ICCV, 2015."
+  ]
 }

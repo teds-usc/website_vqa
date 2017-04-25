@@ -55,3 +55,24 @@
   margin-top:  10px;
   font-size:   12pt;
 }
+
+.text-box {
+  background-color:  #e8e8e8;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 4px;
+  color: 002336;
+}
+
+.references {
+  margin-top:30px;
+  font-size: 10pt;
+}
+
+.reference {
+  margin-top:5px;
+}
+
+.footnote {
+  margin-top: 30px;
+}
