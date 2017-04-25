@@ -68,19 +68,19 @@
             <span class="resource">[ <a href="{{resource.url}}">{{resource.name}}</a> ]</span>
           {% endfor %}
         </div>
-        <div class="item-list">
-          {% for affliation in affliations %}
-          <div class="affliation">
-            <img class="affliation-img" src="{{ affliation.img_url }}"/>
-          </div>
-          {% endfor %}
-        </div>
         <div class="text-box">{{ bibtex }}</div>
         <div class="footnote"><p><strong>Note:</strong> {{footnote}}</p></div>
         <div class="references">
           <div class="abstract-headline">References</div>
           {% for reference in references %}
           <div class="reference">{{reference}}</div>
+          {% endfor %}
+        </div>
+        <div class="item-list">
+          {% for affliation in affliations %}
+          <div class="affliation">
+            <img class="affliation-img" src="{{ affliation.img_url }}"/>
+          </div>
           {% endfor %}
         </div>
       </div>
