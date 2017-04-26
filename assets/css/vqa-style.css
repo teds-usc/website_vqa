@@ -76,3 +76,8 @@
 .footnote {
   margin-top: 30px;
 }
+.thumbnail {
+  border: solid;
+  border-width: 2px;
+  margin-top: 20px;
+}
