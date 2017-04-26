@@ -22,7 +22,7 @@
   ],
   "root_site_logo": "assets/images/teds-logo.svg",
   "google_analytics": "UA-60071442-3",
-  "thumbnail": { "src": "assets/images/thumbnail.jpg", "pdf": "/home/hexianghu/dev/VG-Attention/regional_feature/vg_image_residule_spatial_val.h5" },
+  "thumbnail": { "src": "assets/images/thumbnail.jpg", "url": "/home/hexianghu/dev/VG-Attention/regional_feature/vg_image_residule_spatial_val.h5" },
   "bibtex": "@article{chao2017being,<br/>title={Being Negative but Constructively: Lessons Learnt from Creating Better Visual Question Answering Datasets},<br/>author={Chao, Wei-Lun and Hu, Hexiang and Sha, Fei},<br/>journal={arXiv preprint arXiv:1704.07121},</br>year={2017}</br>}",
   "footnote": "We provide the link to our preprint paper [1] and also links for downloading our generated decoys for the Visual7W dataset [2], the VQA dataset [3], and the Visual Genome dataset [4].",
   "references": [

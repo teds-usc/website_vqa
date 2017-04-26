@@ -62,7 +62,7 @@
           <div class="abstract-headline">Abstract</div>
           <div class="abstract-content">{{ abstract }}</div>
         </div>
-        <div class=""><img class="thumbnail" src="{{thumbnail}}"></div>
+        <div><a href="{{thumbnail.url}}"><img class="thumbnail" src="{{thumbnail.src}}"></a></div>
         <div class="item-list">
           {% for resource in resources %}
             <span class="resource">[ <a href="{{resource.url}}">{{resource.name}}</a> ]</span>
