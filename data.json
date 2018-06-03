@@ -13,9 +13,12 @@
     { "name": "ArXiv", "url": "https://arxiv.org/abs/1704.07121"},
     { "name": "PDF", "url": "http://hexianghu.com/pdf/hexiang2017negative.pdf" },
     { "name": "Poster", "url": "http://hexianghu.com/pdf/negative2017cvprw.pdf"},
-    { "name": "Visual Genome Decoys (56Mb)", "url": "http://hexianghu.com/vqa-negative-decoys/Visual_Genome_decoys.zip" },
-    { "name": "VQA Decoys (8.6Mb)", "url": "http://hexianghu.com/vqa-negative-decoys/VQA_decoys.zip" },
-    { "name": "Visual7W Decoys (3.9Mb)", "url": "http://hexianghu.com/vqa-negative-decoys/Visual7W_decoys.zip" }
+    { "name": "Slides", "url": "http://hexianghu.com/pdf/negative2017naacl.pdf"},
+    { "name": "Visual Genome Decoys", "url": "http://hexianghu.com/vqa-negative-decoys/Visual_Genome_decoys.zip" },
+    { "name": "Visual7W Decoys", "url": "http://hexianghu.com/vqa-negative-decoys/Visual7W_decoys.zip" },
+    { "name": "VQA Decoys", "url": "http://hexianghu.com/vqa-negative-decoys/VQA_decoys.zip" },
+    { "name": "VQA2 Decoys", "url": "http://hexianghu.com/vqa-negative-decoys/VQA2_decoys.zip" },
+    { "name": "COCOQA Decoys", "url": "http://hexianghu.com/vqa-negative-decoys/COCOQA_decoys.zip" }
   ],
   "affliations": [
     { "img_url": "assets/images/usc.png" },
